@@ -81,7 +81,7 @@ function App() {
         signer && 
         <form onSubmit={handleOnSubmit} className="flex flex-col gap-5">
           <input className="border-2 border-black py-1 px-3 w-[400px] rounded" type="text" placeholder="enter value" name="value" value={formData.value} onChange={handleOnChange}/>
-          <button className="bg-gray-300 px-4 py-1 rounded-lg">Transfer</button>
+          <button className="bg-gray-300 px-4 py-1 rounded-lg">Create Lottery</button>
         </form>
       }
 
